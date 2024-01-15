@@ -15,6 +15,7 @@ gem "redis", ">= 4.0.1"
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 gem "bootsnap", require: false
 gem 'mqtt', '~> 0.6.0'
+gem 'foreman', '~> 0.87.2'
 
 group :development, :test do
   gem 'debug', '~> 1.8', platforms: %i[mri mingw x64_mingw]
