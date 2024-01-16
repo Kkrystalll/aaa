@@ -3,6 +3,4 @@ class MqttController < ApplicationController
     MqttSubscribeJob.perform_later
     @temps = Temp.all
   end
-  def subscribe
-  end
 end
